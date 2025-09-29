@@ -1,10 +1,101 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Mitt företag</title>
-  </head>
-  <body>
-    <h1>Välkommen till mitt företag!</h1>
-    <p>Här kommer min hemsida att växa fram.</p>
-  </body>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mitt Företag</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #004999;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .cta {
+      background-color: #0066cc;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .cta:hover {
+      background-color: #004999;
+    }
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: #ddd;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mitt Företag</h1>
+    <p>Vi skapar smarta lösningar för framtiden</p>
+  </header>
+
+  <nav>
+    <a href="#om-oss">Om oss</a>
+    <a href="#tjanster">Tjänster</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="om-oss">
+    <h2>Om oss</h2>
+    <p>
+      Vi är ett företag som brinner för innovation och smarta lösningar.
+      Vår vision är att göra vardagen enklare för både privatpersoner och företag.
+    </p>
+  </section>
+
+  <section id="tjanster">
+    <h2>Tjänster</h2>
+    <ul>
+      <li>📦 Produktutveckling</li>
+      <li>💻 Webbdesign & digitala lösningar</li>
+      <li>🔧 Konsulttjänster</li>
+    </ul>
+    <a href="#kontakt" class="cta">Kontakta oss</a>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>📧 E-post: <a href="mailto:info@mittforetag.se">info@mittforetag.se</a></p>
+    <p>📞 Telefon: 070-123 45 67</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mitt Företag – Alla rättigheter förbehållna</p>
+  </footer>
+</body>
 </html>
